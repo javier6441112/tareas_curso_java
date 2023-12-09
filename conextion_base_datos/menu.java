@@ -62,7 +62,7 @@ public class menu {
                 edad_menu = sp.nextInt();
                System.out.println("ingrese la nota: ");
                 nota_menu = sp.nextDouble();
-                es.modificar(new estudiantes(nombre_menu,apellido_menu,edad_menu,nota_menu));
+                es.modificar(new estudiantes(nombre_menu,apellido_menu,edad_menu,nota_menu,id_estudiantes_menu));
                 es.listar();
 
 
