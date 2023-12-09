@@ -51,6 +51,7 @@ public class menu {
 
                 break;
             case 3:
+               es.listar();
                 System.out.println("ingrese el id del estudiante a modificar: ");
                 id_estudiantes_menu = sp.nextInt();
                   System.out.println("ingrese el nombre: ");
